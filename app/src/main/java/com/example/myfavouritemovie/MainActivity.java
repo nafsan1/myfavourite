@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     public static int TYPE_MOVIE_INTENT = 102;
     public static final String EXTRA_CATALOG = "EXTRA_CATALOG";
     private TabLayout tabLayout;
-    PagerAdapterMovie pagerAdapter;
-    ViewPager viewPager;
+    private PagerAdapterMovie pagerAdapter;
+    private ViewPager viewPager;
     private DataObserver myObserver;
     private static HandlerThread handlerThread;
     @Override
